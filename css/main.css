@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+/* Navbar */
+#navbar {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.75rem;
+  height: 70px;
+}
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+#navbar ul li a {
+  padding: 0.5rem;
+  font-size: 0.7rem;
+}
+#navbar ul li a:hover {
+  background: #336ea2;
+  border-radius: 4px;
+}
+
+/* Home Section */
+#home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+  border-bottom: 1px solid grey;
+}
+#home .name {
+  margin-left: 1rem;
+  text-align: center;
+}
+#home img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+#home .name h2 {
+  margin-bottom: 0.75rem;
+}
+#home .name p {
+  opacity: 0.6;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+#home a {
+  margin-top: 1.25rem;
+  background: #196db6;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+}
+#home a:hover {
+  background: #61abeb;
+}
+#home .paragraph {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+/* Training */
+#training {
+  color: #fff;
+  padding: 1rem;
+}
+#training .items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#training .items .item {
+  width: 33%;
+  text-align: center;
+  padding: 00.5rem;
+}
+/* Courses */
+#courses {
+  color: #333;
+  padding: 1rem;
+}
+.courses {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.courses .course {
+  width: 33%;
+  text-align: center;
+  padding: 0.5rem;
+}
+/* Footer */
+form .button {
+  margin-top: 1.25rem;
+  background: white;
+  padding: 0.5rem 0.5rem;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  color: #196db6;
+  width: 100%;
+}
+form .button:hover {
+  background: #196db6;
+  color: #fff;
+  cursor: pointer;
+}
+/* Contact */
+#contact {
+  color: #fff;
+  padding: 1rem;
+}
+#contact .contact-form {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+#contact .contact-form ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 1rem;
+  align-self: center;
+}
+#contact .contact-form ul li a {
+  padding: 1rem;
+  font-size: 2rem;
+}
+#contact .contact-form ul li a :hover {
+  opacity: 0.8;
+}

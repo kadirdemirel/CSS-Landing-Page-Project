@@ -1,0 +1,60 @@
+/* Text */
+
+.text-center {
+  text-align: center;
+}
+.heading-xxxxsmall {
+  font-size: 0.6rem;
+}
+.heading-xxxsmall {
+  font-size: 0.7rem;
+}
+.heading-xxsmall {
+  font-size: 0.8rem;
+}
+
+.heading-xsmall {
+  font-size: 0.9rem;
+}
+.heading-small {
+  font-size: 1.25rem;
+}
+
+.heading-medium {
+  font-size: 1.5rem;
+}
+
+.heading-big {
+  font-size: 1.75rem;
+}
+
+/* Colors */
+
+.bg-dark-blue {
+  background: #062e51;
+}
+
+.bg-light-blue {
+  background: #336ea2;
+}
+/* Container */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Forms */
+.form-group {
+  padding: 0.25rem 0;
+}
+.form-group label {
+  display: block;
+}
+.form-control {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  resize: none;
+  border-radius: 4px;
+  border:1px solid transparent;
+}
